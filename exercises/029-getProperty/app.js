@@ -1,11 +1,10 @@
-function getProperty(obj, key) {
-  // your code here
+function getProperty (obj, key){
   return obj[key];
 }
 
-let carros = {
-  modelo:'jeep'
-};
+let carro = {
+  modelo : 'jeep'
+}
 
-let modeloCarro = getProperty(carros, 'modelo');
-console.log(modeloCarro);
+let modeloDelCarro = getProperty(carro, 'modelo');
+console.log(modeloDelCarro);

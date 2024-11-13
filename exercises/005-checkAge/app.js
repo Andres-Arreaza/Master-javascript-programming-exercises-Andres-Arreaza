@@ -1,6 +1,4 @@
-function checkAge(name, age) {
-  // your code here
-  return age < 21 ? `Go home, ${name}!` : `Welcome, ${name}!`;
+function checkAge (name, age) {
+  return age <21 ? `Go home, ${name}!` : `Welcome, ${name}!`;
 }
 
-console.log(checkAge('Adrian', 21))

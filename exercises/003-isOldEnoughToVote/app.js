@@ -1,5 +1,5 @@
-function isOldEnoughToVote(age) {
-  // your code here
+function isOldEnoughToVote(age){
   return age>=18;
 }
-console.log(isOldEnoughToVote(17))
+
+console.log(isOldEnoughToVote(18))

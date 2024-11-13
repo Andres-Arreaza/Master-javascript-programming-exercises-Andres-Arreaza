@@ -5,7 +5,8 @@ function removeProperty(obj, key) {
 }
 const carros = {
   modelo: 'jeep',
-  motor: 'jjjj'
+  motor: 'v8',
+  año :2007
 }
 
 console.log(removeProperty(carros, 'modelo'))
